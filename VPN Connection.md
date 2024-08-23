@@ -7,8 +7,8 @@ Import-Certificate -FilePath root.crt -CertStoreLocation Cert:\LocalMachine\Root
 Import-PfxCertificate -FilePath user.p12 -CertStoreLocation Cert:\CurrentUser\My -Exportable
 ```
 # Add VPN connection
-```XML
 # Import EAP configuration (User Certificate)
+```XML
 $EAPXml =
 '<EapHostConfig xmlns="http://www.microsoft.com/provisioning/EapHostConfig">
 <EapMethod>
