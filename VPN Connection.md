@@ -1,4 +1,4 @@
-# 1. Import CA root
+# 1. Import CA root (Local Admin Rights)
 ```PowerShell
 Import-Certificate -FilePath root.crt -CertStoreLocation Cert:\LocalMachine\Root\
 ```
