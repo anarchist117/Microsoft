@@ -2,13 +2,16 @@
 ```
 diskaprt
 
+# List disk
 list disk
 sel disk 0
 
+# Remove recovery partition
 list part
 sel part 4
-del part overrride
+del part override
 
+# Extend partition
 list part
 sel part 3
 extend
