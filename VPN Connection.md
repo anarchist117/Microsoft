@@ -30,5 +30,6 @@ Add-VpnConnectionRoute -ConnectionName "VPN Name" -DestinationPrefix 10.10.10.0/
 
 # Documentation
 [Add-VpnConnection](https://learn.microsoft.com/en-us/powershell/module/vpnclient/add-vpnconnection?view=windowsserver2022-ps)
+
 [EAP configuration](https://learn.microsoft.com/en-us/windows/client-management/mdm/eap-configuration)
 
