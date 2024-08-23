@@ -30,4 +30,4 @@ Add-VpnConnectionRoute -ConnectionName "VPN Name" -DestinationPrefix 10.10.10.0/
 
 
 
-[# EAP configuration](https://learn.microsoft.com/en-us/windows/client-management/mdm/eap-configuration)
+[EAP configuration](https://learn.microsoft.com/en-us/windows/client-management/mdm/eap-configuration)
