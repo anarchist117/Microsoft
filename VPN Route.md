@@ -12,14 +12,7 @@ Import-PfxCertificate -FilePath user.p12 -CertStoreLocation Cert:\CurrentUser\My
 $EAPXml = Get-Content -Path "VPN EAP.xml"
 
 # Add VPN connection IKEv2 without default route
-Add-VpnConnection `
-  -Name "VPN Name" `
-  -ServerAddress vpn.domain.com `
-  -TunnelType Ikev2 `
-  -EncryptionLevel Required `
-  -AuthenticationMethod Eap `
-  -EapConfigXmlStream $EAPXml `
-  -SplitTunneling
+Add-VpnConnection -Name "VPN Name" -ServerAddress vpn.domain.com -TunnelType Ikev2 -EncryptionLevel Required -AuthenticationMethod Eap -EapConfigXmlStream $EAPXml -SplitTunneling
 ```
 
 ### Add an IPv4 route to a specified VPN connection
