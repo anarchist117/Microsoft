@@ -4,7 +4,7 @@ Import-Certificate -FilePath root.crt -CertStoreLocation Cert:\LocalMachine\Root
 ```
 # 2. Import User cert
 ```PowerShell
-Import-PfxCertificate -FilePath user.p12 -CertStoreLocation Cert:\CurrentUser\My -Exportable
+Import-PfxCertificate -FilePath user.p12 -CertStoreLocation Cert:\CurrentUser\My
 ```
 # 3. Add VPN connection
 ### Import EAP configuration (User Certificate)
