@@ -10,7 +10,8 @@ Import-PfxCertificate -FilePath user.p12 -CertStoreLocation Cert:\CurrentUser\My
 ```PowerShell
 # Import EAP configuration (User Certificate)
 $EAPXml = Get-Content -Path "VPN EAP.xml"
-
+```
+```PowerShell
 # Add VPN connection IKEv2 without default route
 Add-VpnConnection `
     -Name "VPN Name" `
