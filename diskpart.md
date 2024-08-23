@@ -1,5 +1,5 @@
 # Extend disk partition
-```
+```cmd
 diskaprt
 
 # List disk
