@@ -1,9 +1,7 @@
 ### Disable default gateway
 ```
-Networking
-Internet Protocol Version 4 (TCP/IPv4)
-Properties
-Advanced
+Control Panel\All Control Panel Items\Network Connections => VPN Name
+Internet Protocol Version 4 (TCP/IPv4) => Properties => Advanced
 Uncheck "use default gateway"
 ```
 
