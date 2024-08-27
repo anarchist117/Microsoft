@@ -1,3 +1,3 @@
 ```powershell
-type $env:USERPROFILE\.ssh\id_rsa.pub | ssh user@server "cat >> .ssh/authorized_keys"
+type $env:USERPROFILE\.ssh\id_rsa.pub | ssh root@server "cat >> .ssh/authorized_keys"
 ```
