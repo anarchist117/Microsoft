@@ -10,13 +10,13 @@ slmgr /skms kms.domain.com
 or
 
 Manually create DNS records
-Type					SRV
+Type			SRV
 Service/Name	_vlmcs
-Protocol			_tcp
-Priority			0
-Weight				0
+Protocol		_tcp
+Priority		0
+Weight			0
 Port number		1688
-Hostname			FQDN of the KMS host
+Hostname		FQDN of the KMS host
 
 nslookup -type=srv _vlmcs._tcp.domain.com
 ```
