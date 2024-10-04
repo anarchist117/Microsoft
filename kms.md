@@ -1,14 +1,13 @@
 # 1. Install a product key
-```
+```cmd
 slmgr /ipk <product key>
 ```
 
 # 2. Set KMS Server or Create custom DNS record
-```
+```cmd
 slmgr /skms kms.domain.com
-
-or
-
+```
+```
 Manually create DNS records
 Type		SRV
 Service/Name	_vlmcs
@@ -22,7 +21,7 @@ nslookup -type=srv _vlmcs._tcp.domain.com
 ```
 
 # 3. Try online activation
-```
+```cmd
 slmgr /ato
 ```
 
