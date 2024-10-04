@@ -15,7 +15,7 @@ Protocol	_tcp
 Priority	0
 Weight		0
 Port number	1688
-Hostname	FQDN of the KMS host
+Hostname	kms.domain.com
 ```
 ```
 nslookup -type=srv _vlmcs._tcp.domain.com
