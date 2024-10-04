@@ -1,13 +1,34 @@
+# 1. Install a product key
 ```
+slmgr /ipk <product key>
+```
+
+# 2. Set KMS Server or Create custom DNS record
+```
+slmgr /skms kms.domain.com
+
+or
+
+Manually create DNS records
+Type					SRV
+Service/Name	_vlmcs
+Protocol			_tcp
+Priority			0
+Weight				0
+Port number		1688
+Hostname			FQDN of the KMS host
+
 nslookup -type=srv _vlmcs._tcp.domain.com
 ```
 
-# Install a product key
+# 3. Try online activation
 ```
-slmgr /ipk <product key>
+slmgr /ato
 ```
 
 # Documentation
 [Key Management Services (KMS) client activation and product keys](https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys)
 
 [How to create a Key Management Services (KMS) activation host](https://learn.microsoft.com/en-us/windows-server/get-started/kms-create-host)
+
+[Slmgr.vbs options for obtaining volume activation information](https://learn.microsoft.com/en-us/windows-server/get-started/activation-slmgr-vbs-options)
