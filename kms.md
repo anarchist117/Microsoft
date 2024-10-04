@@ -21,7 +21,7 @@ Hostname	FQDN of the KMS host
 nslookup -type=srv _vlmcs._tcp.domain.com
 ```
 
-# 3. Try online activation
+# 3. Online activation
 ```cmd
 slmgr /ato
 ```
