@@ -3,7 +3,7 @@
 slmgr /ipk <product key>
 ```
 
-# 2. Set KMS Server or Create custom DNS record
+# 2. Set KMS Server or Create SRV record
 ```cmd
 slmgr /skms kms.domain.com
 ```
@@ -16,7 +16,8 @@ Priority	0
 Weight		0
 Port number	1688
 Hostname	FQDN of the KMS host
-
+```
+```
 nslookup -type=srv _vlmcs._tcp.domain.com
 ```
 
