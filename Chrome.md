@@ -1,8 +1,8 @@
 # Error
-### net::ERR_CERT_AUTHORITY_INVALID
-
-
-
+```
+net::ERR_CERT_AUTHORITY_INVALID
+```
+# Solution
 ```
 thisisunsafe
 ```
