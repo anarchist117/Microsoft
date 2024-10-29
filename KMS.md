@@ -27,8 +27,10 @@ slmgr /ato
 ```
 
 # Documentation
-[Key Management Services (KMS) client activation and product keys](https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys)
+[Windows GVLKs](https://learn.microsoft.com/en-us/windows-server/get-started/kms-client-activation-keys)
 
-[How to create a Key Management Services (KMS) activation host](https://learn.microsoft.com/en-us/windows-server/get-started/kms-create-host)
+[Office GVLKs](https://learn.microsoft.com/en-us/office/volume-license-activation/gvlks)
 
-[Slmgr.vbs options for obtaining volume activation information](https://learn.microsoft.com/en-us/windows-server/get-started/activation-slmgr-vbs-options)
+[Key Management Services (KMS)](https://learn.microsoft.com/en-us/windows-server/get-started/kms-create-host)
+
+[Slmgr options](https://learn.microsoft.com/en-us/windows-server/get-started/activation-slmgr-vbs-options)
