@@ -1,9 +1,9 @@
 # FreeFileSync
 1. Create task in FreeFileSyn
 2. Save as batch job "BatchRun.ffs_batch"
-   ```
-C:\Program Files\FreeFileSync\BatchRun.ffs_batch
-   ```
+  ```
+  C:\Program Files\FreeFileSync\BatchRun.ffs_batch
+  ```
 3. Close FreeFileSyn
 
 # RealTimeSync
