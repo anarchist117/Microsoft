@@ -9,7 +9,7 @@
 # RealTimeSync
 4. Create task in RealTimeSync
 5. Select "Folder to watch for changes"
-6.Command line:
+6. Command line:
   ```
   "C:\Program Files\FreeFileSync\FreeFileSync.exe" "C:\Program Files\FreeFileSync\BatchRun.ffs_batch"
   ```
