@@ -28,4 +28,5 @@ Dism /Split-Image /ImageFile:D:\sources\install.wim /SWMFile:E:\sources\install.
 
 # Documentation
 [Create a bootable USB flash drive](https://learn.microsoft.com/en-us/windows-server-essentials/install/create-a-bootable-usb-flash-drive)
+
 [Split a Windows image file (.wim)](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/split-a-windows-image--wim--file-to-span-across-multiple-dvds?view=windows-11)
