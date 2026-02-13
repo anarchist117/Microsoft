@@ -1,10 +1,10 @@
 # Setup IP Address
 |  | DC1 | DC2 |
 | --- | --- | --- |
-| IP address | 10.X.100.1 | 10.X.100.2 |
+| IP address | 10.X.Y.1 | 10.X.Y.2 |
 | Subnet mask | 255.255.255.0 | 255.255.255.0 |
-| Default gateway | 10.X.100.254 | 10.X.100.254 |
-| Primary DNS | 10.X.100.2 | 10.X.100.1 |
+| Default gateway | 10.X.Y.254 | 10.X.Y.254 |
+| Primary DNS | 10.X.Y.2 | 10.X.Y.1 |
 | Secondary DNS | 127.0.0.1 | 127.0.0.1 |
 
 # Install AD DS
