@@ -20,14 +20,14 @@ Install-ADDSForest -DomainName "corp.internal"
 Install-ADDSDomainController -Credential (Get-Credential CORP\Administrator) -DomainName "corp.internal"
 ```
 
-# AD DS Tools
-```
-Install-WindowsFeature RSAT-ADDS -IncludeAllSubFeature
-```
-
 # Enable Active Directory Recycle Bin
 ```
 Enable-ADOptionalFeature -Identity 'CN=Recycle Bin Feature,CN=Optional Features,CN=Directory Service,CN=Windows NT,CN=Services,CN=Configuration,DC=corp,DC=internal' -Scope ForestOrConfigurationSet -Target 'corp.internal'
+```
+
+# AD DS Tools
+```
+Install-WindowsFeature RSAT-ADDS -IncludeAllSubFeature
 ```
 
 
