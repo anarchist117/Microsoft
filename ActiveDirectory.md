@@ -25,9 +25,15 @@ Install-ADDSDomainController -Credential (Get-Credential CORP\Administrator) -Do
 Install-WindowsFeature RSAT-ADDS -IncludeAllSubFeature
 ```
 
+# Enable Active Directory Recycle Bin
+```
+Enable-ADOptionalFeature -Identity 'CN=Recycle Bin Feature,CN=Optional Features,CN=Directory Service,CN=Windows NT,CN=Services,CN=Configuration,DC=corp,DC=internal' -Scope ForestOrConfigurationSet -Target 'corp.internal'
+```
+
 
 
 # Documentation
-[Install Active Directory Domain Services](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/install-active-directory-domain-services--level-100-) </br>
 [Best practices for DNS client settings in Windows Server](https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/best-practices-for-dns-client-settings) </br>
-[.internal](https://en.wikipedia.org/wiki/.internal)
+[Install Active Directory Domain Services](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/deploy/install-active-directory-domain-services--level-100-) </br>
+[.internal](https://en.wikipedia.org/wiki/.internal) </br>
+[Enable Active Directory Recycle Bin](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/adac/active-directory-recycle-bin?tabs=powershell#enable-active-directory-recycle-bin)
