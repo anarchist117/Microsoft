@@ -11,12 +11,12 @@
 ```
 Install-WindowsFeature -name AD-Domain-Services -IncludeManagementTools
 ```
+### DC1
 ```
-# DC1
 Install-ADDSForest -DomainName "corp.internal"
 ```
+### DC2
 ```
-# DC2
 Install-ADDSDomainController -Credential (Get-Credential CORP\Administrator) -DomainName "corp.internal"
 ```
 
