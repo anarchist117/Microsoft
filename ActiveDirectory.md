@@ -22,7 +22,7 @@ Install-ADDSDomainController -Credential (Get-Credential CORP\Administrator) -Do
 
 # AD DS Tools
 ```
-Install-WindowsFeature RSAT-ADDS-Tools
+Install-WindowsFeature RSAT-ADDS -IncludeAllSubFeature
 ```
 
 
